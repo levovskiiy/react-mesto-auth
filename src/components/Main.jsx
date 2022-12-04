@@ -2,14 +2,14 @@ import {useContext} from "react";
 import Card from "./Card";
 import {currentUserContext} from "../contexts/currentUserContext";
 
-const Main = ({cards, onCardDelete, onCardLike, onAddPalce, onEditProfile ,onEditAvatar, onCardClick}) => {
+const Main = ({cards, onCardDelete, onCardLike, onAddPlace, onEditProfile ,onEditAvatar, onCardClick}) => {
   const {name, about, avatar} = useContext(currentUserContext);
 
   return (
     <main className="content page__content">
       <section className="profile content__profile">
         <div className='profile__avatar-container'>
-          <img src={avatar} alt="_" className="profile__avatar"/>
+          <img src={avatar} alt='Картинка профиля' className="profile__avatar"/>
           <button onClick={onEditAvatar} type='button' className='btn profile__avatar-edit'></button>
         </div>
 
@@ -19,7 +19,7 @@ const Main = ({cards, onCardDelete, onCardLike, onAddPalce, onEditProfile ,onEdi
           <p className="profile__description">{about}</p>
         </div>
 
-        <button onClick={onAddPalce} type="button" className="btn profile__button-add"></button>
+        <button onClick={onAddPlace} type="button" className="btn profile__button-add"></button>
       </section>
 
       <section className="elements content__photo-grid">
