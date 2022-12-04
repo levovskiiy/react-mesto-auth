@@ -10,9 +10,7 @@ Mesto - приложения для размещения фотографий.
 4. BEM Metotology (NESTED)
 5. JS
 
-Проект можно посмотреть по [ссылке](https://levovskiiy.github.io/mesto-react/)
-
-
+Проект можно посмотреть по [ссылке](https://levovskiiy.github.io/react-mesto-auth/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
