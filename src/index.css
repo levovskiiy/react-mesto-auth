@@ -12,6 +12,7 @@
 /* ====== HEADER SECTION ====== */
 @import url('blocks/header/header.css');
 @import url('blocks/header/__logo/header__logo.css');
+@import url('blocks/header/__container/header__container.css');
 /* ====== HEADER SECTION ====== */
 
 @import url('blocks/profile/profile.css');
@@ -76,3 +77,7 @@
 @import url('blocks/tooltip/tooltip.css');
 @import url('blocks/tooltip/__image/tooltip__image.css');
 @import url('blocks/tooltip/__text/tooltip__text.css');
+
+@import url('blocks/authUserInfo/authUserInfo.css');
+@import url('blocks/authUserInfo/__link/authUserInfo__link.css');
+@import url('blocks/authUserInfo/__email/authUserInfo__email.css');
